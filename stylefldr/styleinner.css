@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+img {
+    width: 150px;
+}
+
+button {
+    box-sizing: border-box;
+    outline: none;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    font-size: 16px;
+    cursor: pointer;
+    width: 15rem;
+    height: 7rem;
+}
+
+#impbtn {
+    margin: auto;
+   
+}
+
+.content {
+    display: flex;
+    margin: auto;
+}
+
+.button {
+    margin: 0 2rem;
+    display: flex;
+}
+
+.retbutn{
+    margin: 3rem 0;
+}
+
+.inbtn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 0px 3px 15px 5px rgba(0, 0, 0, 0.5) ;
+}
